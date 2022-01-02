@@ -10,7 +10,7 @@ provider "aws" {
 
 
 
-resource "aws_instance" "Myserver3" {
+resource "aws_instance" "Myserver1" {
   ami           = "ami-052cef05d01020f1d"
   instance_type = "t2.micro"
   
